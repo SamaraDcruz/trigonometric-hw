@@ -1,0 +1,17 @@
+import math
+
+# Step 1: Ask the user for an angle in degrees
+angle = float(input("Enter an angle in degrees: "))
+
+# Step 2: Convert degrees to radians
+radians = math.radians(angle)
+
+# Step 3: Calculate sine, cosine, and tangent
+sine = math.sin(radians)
+cosine = math.cos(radians)
+tangent = math.tan(radians)
+
+# Step 4: Show the results
+print("Sine of", angle, "degrees is:", sine)
+print("Cosine of", angle, "degrees is:", cosine)
+print("Tangent of", angle, "degrees is:", tangent)
